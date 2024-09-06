@@ -1,0 +1,312 @@
+::selection{
+
+    color:red;
+}
+
+
+#body1{
+    
+        
+    
+    font-family: Arial, sans-serif;
+    color:linear-gradient(to bottom, #87CEEB, #4682B4, #D3D3D3, #FFFFFF) ;
+    text-align:center;
+    background:url( https://ese2240.seas.upenn.edu/wp-content/uploads/2018/11/background-website-light-blue-wallpapers-background-2.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+    /* -_- */
+
+   
+#link{
+    text-decoration: none;
+    color: skyblue;
+}
+    body h1{
+
+        color: aqua;
+        font-size: 50px;
+        
+
+    }
+    #Hunter{
+        color:#1b4e6f;
+        font-size:100px;
+        font-family:  serif;
+        padding-top: 150px;
+    }
+
+    body p{
+
+        color: aquamarine;
+        font-size: 20px
+    
+    }
+
+ 
+
+     #button{
+
+        background-color:rgb(20, 88, 197);
+        color:rgb(118, 117, 117);
+    
+     }
+     .table1 /*Here -_-*/{
+       
+        padding: 10px;
+        color: rgb(255, 243, 219);
+        border-radius: 17px;
+        background-color: darkcyan;
+        margin-top:7% ;
+        position: relative;
+        left: 150px;
+        
+        
+     }
+     .table1 th{
+        border-radius: 10px;
+        padding: 10px;
+     }
+     
+     .table1 td,th:hover{
+
+        
+        border:5px solid #72a6ba;
+        
+        border-radius: 15px;
+       
+       
+    
+
+    }
+    .table1:hover{
+        padding: 20px;
+        background-color: blue;
+        transition: background-color 2s ease;
+        transition: padding 3s ease;
+        
+        
+      
+
+    }
+    .table2{
+        padding: 10px;
+        color: rgb(255, 243, 219);
+        border-radius: 17px;
+        background-color: darkcyan;
+        margin-bottom: 10px;
+        position: absolute;
+        top: 1840px;
+        left: 500px;
+        
+       
+     }
+    
+    .table2:hover{
+
+        background-color: red;
+        padding: 20px;
+        
+        transition: padding 1.5s ease , background-color 1.5s ease;
+       
+
+    }
+    .table2 th,td:hover{
+        cursor: default;
+        
+    }
+    #place{
+
+        font-size: 100%;
+        background-color: white;
+        border-radius: 10px;
+        border:#FFFFFF 10px salmon;
+    }
+
+    #img{
+        
+       border: 5px #87CEEB aliceblue;
+       cursor:pointer;
+       border-radius: 75px;
+       padding: 20px;
+       
+    }
+    #img:hover{
+
+        margin-bottom: 5px;
+        transition: margin 1s ease;
+       
+        
+        
+    }
+
+
+#button{
+    
+    color: white;
+    background-color: #1E90FF;    
+    border-radius: 15px;
+    border:rgb(0, 0, 0) 5px;
+    cursor:pointer;
+    font-size: 20px;
+    padding: 8px;
+}
+#button:hover{
+
+    background-color: aquamarine;
+    padding:10px;
+    transition: padding 1s ease;
+}
+
+
+
+
+
+
+}
+
+*{
+
+    /*background-color:red ;*/
+}
+
+
+
+#body2{
+#top5, ul{
+    
+ font-size: 30px;
+    text-align: center;
+    list-style-type:none;
+    
+    font-size: 30px;
+    
+}
+background-color: aquamarine;
+#link{
+
+    text-decoration: none;
+    color: white ;
+
+}
+#form:hover{
+
+    background-color: rgb(109, 109, 109);
+    transition: background-color 0.9s ease;
+    padding: 10px;
+    
+    
+}
+@media screen and (min-width:1000px) and (max-width : 150000px){
+background-color: red;
+#form{  
+    
+  
+    position: relative;
+    
+    text-align: center;
+    
+    color:rgb(255, 255, 255);
+    background-color: rgb(69, 69, 69);
+    margin:0 43%;
+    border-radius: 20%;
+    
+    padding: 10px;
+    
+    input[type="password"],input[type="email"]{
+        
+        border-radius: 10px;
+        border:white 20px;
+        padding: 5px;
+    }
+    input[type="email"]:focus{
+       padding: 8px;
+       margin: auto;
+       transition: padding 0.3s ease;
+       outline: none;
+       border-radius: 100px;
+        
+    }
+    input[type="password"]:focus{
+        padding: 8px;
+        margin: auto;
+        transition: padding 0.3s ease;
+        outline: none;
+        border-radius: 100px;
+        border-color: red;
+
+        
+    }
+
+    button[type="submit"]{
+        margin-bottom : 20px;
+        border-radius: 20px;
+        color:aquamarine;
+        background-color: rgb(63, 63, 63);
+        padding: 5px;
+        cursor: pointer;
+        margin: auto;
+
+        
+    }
+    button[type="submit"]:hover{
+        padding: 10px;
+        background-color: rgb(109, 109, 109);
+        transition: background-color,padding 0.9s ease;
+    }
+    #submit{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    color: aquamarine;
+    background-color: rgb(63, 63, 63);
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 2% ;
+    margin: auto;
+    
+
+    }
+    #submit:hover{
+
+        padding: 10px;
+        background-color: rgb(109, 109, 109);
+        transition: background-color,padding 0.9s ease;
+    }
+    h3,h2{
+        color: aquamarine;
+        
+       
+    }
+    label{
+        color: aquamarine;
+    }
+    input[type="radio"]{
+
+       cursor: pointer;
+    }
+
+    #first{
+        position: absolute;
+        bottom: 25%;
+        background-color: red;
+    }
+    
+   
+}
+
+}
+}
+
+
+#body3{
+
+
+
+
+}
+
+
+
+
+
+
+
